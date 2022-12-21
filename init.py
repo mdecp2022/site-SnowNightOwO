@@ -12,7 +12,7 @@ class Init(object):
     uwsgi = False
     site_title = "SnowNightOwOb"
     ip = "127.0.0.1"
-    dynamic_port = 9443
+    dynamic_port = 6968
     static_port = 8443
     def __init__(self):
         # hope to create downloads and images directories　
@@ -26,5 +26,3 @@ class Init(object):
                 os.makedirs(_curdir + "/images")
             except:
                 print("mkdir error")
-
-
